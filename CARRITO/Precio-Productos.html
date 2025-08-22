@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestros Jugos</title>
+    <link rel="stylesheet" href="combined.css" />
+  </head>
+  <body class="pagina-productos">
+    <header>
+      <div class="logo-empresa">
+        <img
+          src="Menu-img/Ojari-logo-removebg-preview.png"
+          class="logo"
+          alt="logo-ojari"
+          loading="lazy"
+        />
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about_us.html">Sobre Nosotros</a></li>
+          <li>
+            <a href="Precio-Productos.html" aria-current="page">Cómpranos</a>
+          </li>
+          <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+
+      <div class="container-icon">
+        <div class="container-cart-icon">
+          <img
+            src="img/cart-icon.png"
+            alt="Icono de carrito"
+            class="icon-cart"
+          />
+          <div class="count-products">
+            <span id="contador-productos">0</span>
+          </div>
+        </div>
+        <div class="container-cart-products hidden-cart">
+          <form id="ordenar-form" action="" method="GET">
+            <div class="row-product"></div>
+            <div class="cart-total">
+              <h3>Total:</h3>
+              <span class="total-pagar">$0</span>
+            </div>
+            <p class="cart-empty">El carrito está vacío</p>
+            <button type="submit" id="ordenar-btn" class="ordenar-btn">
+              Ordenar
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="products">
+      <h2>Nuestros helados</h2>
+      <p class="subtitle">Helados que derriten corazones, no solo paladares.</p>
+
+      <div class="grid">
+        <div class="card">
+          <img src="img/cono-sencillo.png" alt="Cono Sencillo" />
+          <h3>$1.800</h3>
+          <h4>CONO SENCILLO</h4>
+          <p>Un sabor de helado, galleta y topping de preferencia.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/cono-doble.png" alt="Cono Doble" />
+          <h3>$3.000</h3>
+          <h4>CONO DOBLE</h4>
+          <p>Dos sabores de helado, galleta y topping de preferencia.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/copa-junior.png" alt="Copa de Helado Junior" />
+          <h3>$6.500</h3>
+          <h4>COPA DE HELADO JUNIOR</h4>
+          <p>
+            Dos sabores de helado, chantilly, galleta y topping de preferencia.
+          </p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/helado-artesanal.png" alt="Helado Artesanal" />
+          <h3>$3.000</h3>
+          <h4>HELADO ARTESANAL</h4>
+          <p>Mora, arequipe, maracuyá, chicle, fresa, guanábana, limón.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/copa-especial.png" alt="Copa de Helado Especial" />
+          <h3>$7.500</h3>
+          <h4>COPA DE HELADO ESPECIAL</h4>
+          <p>
+            Tres sabores de helado, fruta, chantilly, galleta y topping de
+            preferencia.
+          </p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="img/canasta-sencilla.png"
+            alt="Canasta de Helado Sencilla"
+          />
+          <h3>$7.000</h3>
+          <h4>CANASTA DE HELADO SENCILLA</h4>
+          <p>
+            Dos sabores de helado, fruta, chantilly, galleta y topping de
+            preferencia.
+          </p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="img/canasta-especial.png"
+            alt="Canasta de Helado Especial"
+          />
+          <h3>$8.500</h3>
+          <h4>CANASTA DE HELADO ESPECIAL</h4>
+          <p>
+            Tres sabores de helado, fruta, chantilly, galleta y topping de
+            preferencia.
+          </p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <h2>Nuestros Postres</h2>
+      <p class="subtitle">Postres que conquistan desde la primera probada.</p>
+
+      <div class="grid">
+        <div class="card">
+          <img src="img/banana-split.png" alt="Banana Split" />
+          <h3>$8.500</h3>
+          <h4>BANANA SPLIT</h4>
+          <p>Banana, fruta, crema, tres sabores de helado, salsa.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/peach-melba.png" alt="Peach Melba" />
+          <h3>$7.500</h3>
+          <h4>PEACH MELBA</h4>
+          <p>Melocotón, helado de vainilla, arequipe y salsa de chocolate.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/brownie.png" alt="Brownie Caliente con Helado" />
+          <h3>$3.500</h3>
+          <h4>BROWNIE CALIENTE CON HELADO</h4>
+          <p>Brownie, helado de preferencia, salsa chocolate.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/waffle.png" alt="Waffle de Nuttela" />
+          <h3>$12.000</h3>
+          <h4>WAFFLE DE NUTTELA</h4>
+          <p>Waffle fresco, banano, Nutella y salsa de chocolate.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/salpicon.png" alt="Salpicón" />
+          <h3>$3.500</h3>
+          <h4>SALPICÓN</h4>
+          <p>Frutas, salpicón, salsa, crema.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/salpicon-helado.png" alt="Salpicón con Helado" />
+          <h3>$5.000</h3>
+          <h4>SALPICÓN CON HELADO</h4>
+          <p>Ensalada de frutas, salpicón, salsa, crema.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/merengon.png" alt="Merengón" />
+          <h3>$6.000</h3>
+          <h4>MERENGÓN</h4>
+          <p>Merengue, fresa, guanábana, mango, crema chantilly, salsa.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="img/fresas-crema.png" alt="Fresas con Crema" />
+          <h3>$5.000</h3>
+          <h4>FRESAS CON CREMA</h4>
+          <p>Fresas, crema de leche, chantilly.</p>
+          <button class="btn-add-cart">Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="Precio-Productos.js"></script>
+  </body>
+</html>
